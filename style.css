@@ -1,0 +1,199 @@
+.nav {
+  background-color: #0c2461;
+
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.logo {
+  color: white;
+}
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.nav ul li {
+  padding: 10px 70px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+.featured-categories {
+  margin: 0%;
+  text-align: center;
+}
+.featured-categories ol {
+  display: inline-block;
+  text-align: left;
+}
+.featured-categories h2 {
+  font-style: italic;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+.recipe-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.recipe-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.recipe-item-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.recipe-item h2 {
+  margin: 0;
+  font-size: 20px;
+  padding: 10px;
+  min-width: 200px;
+}
+.recipe-item p {
+  margin: 0;
+  padding: 10px;
+  color: #777;
+}
+.recipe-item a {
+  background-color: #0c2461;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  width: 13%;
+  text-align: center;
+}
+.recipe-item a:hover {
+  background-color: #1e3799;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #0c2461;
+}
+.footer p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.main {
+  left: 15%;
+  padding: 30px;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+}
+.main ol {
+  font-size: 20px;
+
+  margin-bottom: 7%;
+  display: inline-block;
+}
+
+.first {
+  margin: 10px;
+  padding: 15px;
+}
+.first p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.recipe-day {
+  margin: 0 5%;
+  padding: 15px;
+  display: inline-block;
+}
+.recipe-day img {
+  width: 30%;
+}
+.recipe-day h2 {
+  text-align: center;
+  font-style: italic;
+}
+.recipe-day p {
+  font-size: 20px;
+  text-align: center;
+}
+.recipe-day a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.recipe-day button {
+  background-color: #0c2461;
+  text-align: center;
+}
+.submit-form h3 {
+  text-align: center;
+  font-style: italic;
+}
+
+.submit-form form {
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.submit-form [type="text"],
+[type="file"],
+[type="submit"],
+select,
+textarea {
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 4px;
+}
+.ingrid {
+  margin: 3%;
+  padding: 5%;
+}
+.ingrid img {
+  width: 30%;
+}
+.rating-box {
+  background-color: #0c2461;
+  position: relative;
+  padding: 25px 50px 35px;
+  width: 25%;
+  margin: 0 3%;
+}
+.rating-box header {
+  font-size: 22px;
+  color: whitesmoke;
+  font-weight: 500px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.stars i {
+  color: dimgray;
+  font-size: 20px;
+  cursor: pointer;
+}
